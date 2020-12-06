@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 10px;
+  color: #fff;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* Container 
+==================*/
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Header 
+==================*/
+
+.header {
+  height: 70px;
+  background-color: #000000;
+}
+
+.header__inner {
+  padding: 20px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Nav 
+==================*/
+
+.nav {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 50px;
+  opacity: 0.75;
+
+  transition: opacity 0.1s linear;
+}
+
+.nav__link:hover {
+  opacity: 1;
+}
+
+.nav__link:first-child {
+  margin-left: 0;
+}
+
+/* Intro 
+==================*/
+
+.intro {
+  height: 640px;
+
+  background: url("images/intro.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.intro__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Right side 
+==================*/
+
+.logo {
+  padding-top: 110px;
+}
+
+.right__title {
+  padding-top: 35px;
+  font-size: 35px;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 400;
+}
+
+.border {
+  margin-top: 40px;
+  border: 2px solid #fff;
+  height: 2px;
+  width: 70px;
+}
+
+.right__subtitle {
+  padding-top: 40px;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  flex-wrap: 300;
+  opacity: 0.5;
+}
+.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 45px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  border: 2px solid #fff;
+  width: 140px;
+  height: 45px;
+  text-decoration: none;
+  color: white;
+
+  transition: background 0.2s linear;
+}
+.download:hover {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+}
+
+/* Left side 
+==================*/
+.rectangle__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 141px;
+  width: 360px;
+  height: 55px;
+  background-color: #f5f5f5;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #000;
+  font-size: 18px;
+}
+.rectangle__diff {
+  color: #ff9966;
+  text-transform: uppercase;
+  margin: 0 4px;
+}
+hr {
+  width: 250px;
+  z-index: 1000;
+  color: black;
+}
+.first__hr {
+  margin-top: -25px;
+  margin-bottom: 25px;
+}
+.second__hr {
+  margin-top: -25px;
+  margin-bottom: 25px;
+}
+.third__hr {
+  margin-top: -25px;
+}
+
+.rectangle__middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 360px;
+  height: 255px;
+  background-color: #fff;
+
+  color: #b9b1b1;
+}
+
+.writing {
+  margin: auto;
+  width: 250px;
+  padding: 6px 0;
+  margin: 20px 0;
+
+  padding-left: 3px;
+}
+
+.rectangle__middle p {
+  width: 360px;
+  height: 255px;
+  background-color: #fff;
+}
+
+.rectangle__bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 360px;
+  height: 55px;
+  background-color: #ff9966;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+}
+.rectangle__bottom:hover {
+  background-color: #000;
+}
+.intro__rectangle a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Media 
+==================*/
+.media {
+  height: 105px;
+}
+.media__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.media__text {
+  margin: 21px 10px 21px 0;
+}
+.media__title {
+  color: #333333;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.media__subtitle {
+  color: #86878b;
+  font-size: 12px;
+}
+
+/* Social 
+==================*/
+.social {
+  display: inline-block;
+}
+.social__icon {
+  margin-top: 23px;
+  margin-left: 20px;
+  margin-right: 20px;
+  fill: #cccccc;
+  height: 45px;
+  max-width: 50px;
+  transition: fill 0.1s linear;
+}
+.social__icon:hover {
+  fill: #000;
+}
+
+/* MENU
+================== */
+.menu{
+  height: 500px;
+  background-color: rgb(105, 104, 104);
+}
+.menu__inner{
+
+}
+.menu__intro{
+  color: #000;
+}
+.menu__intro h2{
+  
+}
